@@ -14,7 +14,7 @@ export default function Header() {
         <ul className="flex space-x-6">
           <li>
             <Link
-              href="/home"
+              href="/"
               className="hover:text-blue-400 transition-colors duration-300"
             >
               Home
@@ -30,7 +30,7 @@ export default function Header() {
           </li>
           <li>
             <Link
-              href="/user/{uname}"
+              href="/user/{id}"
               className="hover:text-blue-400 transition-colors duration-300"
             >
               Users
