@@ -30,10 +30,10 @@ export default function Header() {
           </li>
           <li>
             <Link
-              href="/services"
+              href="/user/{uname}"
               className="hover:text-blue-400 transition-colors duration-300"
             >
-              Services
+              Users
             </Link>
           </li>
           <li>
