@@ -57,19 +57,14 @@ export default function AboutPage() {
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
             {[
               {
-                name: "Sarah Johnson",
-                role: "CEO & Founder",
-                img: "https://randomuser.me/api/portraits/women/65.jpg",
-              },
-              {
-                name: "David Smith",
+                name: "ABC",
                 role: "Lead Developer",
                 img: "https://randomuser.me/api/portraits/men/75.jpg",
               },
               {
-                name: "Emily Brown",
-                role: "UI/UX Designer",
-                img: "https://randomuser.me/api/portraits/women/45.jpg",
+                name: "Utsahi",
+                role: "Lead Developer",
+                img: "https://randomuser.me/api/portraits/women/65.jpg",
               },
             ].map((member) => (
               <div
