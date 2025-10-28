@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "format": "prettier --write \"app/**/*.{ts,tsx,js,jsx}\""
+    "format": "prettier --write \"src/app/**/*.{ts,tsx,js,jsx}\""
   },
   "dependencies": {
     "next": "16.0.0",
